@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../slike/svemir8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#meni {
+    background-color: #ffffff;
+}
+
+.naslov {
+    min-height: 450px;
+}
+
+.naslov h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+
+.naslov p{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#sadrzaj {
+    background-color: #ffffff;
+}
+
+#sadrzaj h2 {
+    font-size: 45px;
+}
+
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+
+
+.tekstovi h3 {
+    font-size: 25px;
+}
+
