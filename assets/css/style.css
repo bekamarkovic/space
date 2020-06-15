@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../../images/pozadina1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, p {
+    color: #ffffff;
+}
+
+p {
+    font-size: 19px;
+}
+ 
+
+#meni, #meni2, .btn, .futer, .divider, button, .slider .indicators .indicator-item.active{
+    background-color: #0F68A0;
+}
+
+.container-fluid {
+    width: 97%!important;
+}
+
+.card .card-image img{
+    border-radius: 12px 12px 0 0;
+}
+
+.card-content p {
+    font-size: 15px;
+}
+
+#zaglavlje{
+    margin-bottom: 20px;
+}
+
+#meni{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#meni ul li a {
+    font-size: 1.3vw;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.prvih1{
+    font-size: 75px;
+    letter-spacing: 3px;
+    margin-top: 13%;
+    animation: rotate-scale-up 0.8s linear both;
+    animation-name: fadeInLeft;
+}
+
+.naslov p{
+    font-size: 25px;
+    margin-top: 60px;
+    letter-spacing: 1px;
+    animation: rotate-scale-up 0.8s linear both;
+    animation-name: fadeInRight;
+}
+
+.btnAnimate {
+    animation: rotate-scale-up 0.8s linear both;
+    animation-name: fadeInUp;
+}
+
+.tekst {
+    height: inherit;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+#slajder {
+    height: 750px;
+    
+}
+
+.btn {
+    margin-top: 90px;
+}
+
+.btn0 {
+    height: 50px;
+}
+
+#slajder1 {
+    height: 650px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+ 
+#slajderKolona, .slider, .slider .slides, .slider .slides li, .slider .slides li img {
+    height: inherit!important;
+    z-index: 0;
+}  
+
+.slider .indicators {
+    bottom: -50px!important;
+}
+
+
+.tekstovi, .naslovVrh {
+    margin-top: 30px;
+}
+
+.naslovVrh {
+    margin-bottom: 50px;
+}
+
+.sadrzaj, #autor, #naslovPlanete {
+    margin-top: 100px;
+}
+
+
+.tekst{
+    margin-right: 12%;
+    margin-left: 3%;
+}
+
+
+#autor img{
+    width: 100%;
+    border-radius: 7%;
+}
+
+.card {
+    border-radius: 3%;
+}
+
+.tekstovi .card {
+    min-height: 85vh;
+    background-color: #0F68A0;
+}
+
+
+.futer {
+    margin-top: 70px;
+}
+
+.futer ul li a, .futer p{
+    font-size: 18px;
+}
+
+.dostignuca h2{
+    margin-bottom: 70px;
+    margin-top: 150px;
+}
+
+.planete .card{
+    margin-top: 30px;
+}
+
+.divider {
+    height: 2px;
+}
+
+.linkovi {
+    margin-left: 22%;
+}
+
+.input-field .prefix {
+    font-size: 40px;
+}
+
+.input-field label {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+input, textarea, .input-field .prefix, .input-field .prefix.active, .input-field label.active{
+    color: #0F68A0!important;
+}
+
+input:focus-within, textarea:focus-within{
+    border-bottom: 1px solid #0F68A0!important;
+}
+
+.btn1 {
+    height: 48px;
+    width: 15%;
+}
+
+#tekstKontakt {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 1.3%;
+}
+
+.modal {
+    max-height: 32%;
+}
+
+.futer h4{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 992px){
+    #meni2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .naslov:nth-of-type(1){
+        margin-top: 50px!important;
+    }
+
+    .milestones{
+        padding: 0px!important;
+        border: none!important;
+        margin-left: 0px!important;
+        background-color: transparent!important;
+    }
+    .futer p, .futer i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .naslov:nth-of-type(1), #autor h2, #slajder1{
+        margin-top: 50px!important;
+    }
+
+    #slajder1 {
+        height: 430px;
+    }
+
+    .tekstovi{
+        margin: auto;
+    }
+
+    .btn1 {
+        width: 35%;
+    }
+
+    .dostignuca h2{
+        margin-top: 80px;
+    }
+
+    .tekstovi .card {
+        min-height: 60vh;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    h1 {
+        font-size: 40px!important;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 15px!important;
+    }
+
+    #slajder {
+        height: 700px;
+    }
+
+    .tekstOAutoru{
+        text-align: center;
+    }
+
+    #slajder1 {
+        height: 230px;
+    }
+
+    .linkovi, .copyright{
+        margin-left: 0%!important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal {
+        max-height: 43%;
+    }
+    
+    .prvih1 {
+        margin-top: 30%;
+    }
+}
+
+
+/*--------------------------------ANIMACIJE------------------------------------*/
+
+@-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @-webkit-keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+  @-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
